@@ -1,0 +1,29 @@
+/*============common part start===========*/
+body{
+    background: url(../images/background_image.jpg);
+    opacity: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    z-index: -100;
+    gap: 80px;
+    
+}
+.result{
+    width: 100px;
+    height: 100px;
+    background: rgba(192, 6, 121, 0.4);
+    color: white;
+    border: 5px solid rgb(63, 175, 240);
+    border-radius: 10px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*============common part end===========*/
+

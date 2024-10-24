@@ -1,0 +1,22 @@
+
+body{
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    z-index: -100;
+    gap: 40px;
+
+}
+.result{
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    color: brown;
+    border: 2px solid sienna;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
